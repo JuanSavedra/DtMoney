@@ -1,10 +1,9 @@
-import logo from './assets/logo.svg';
+import styled from 'styled-components';
 
 export function App() {
   return (
     <div>
-      <h1>Hello World</h1>
-      <img src={logo} alt="" />
+      <h1 className="title">Hello World</h1>
     </div>
   );
 }
