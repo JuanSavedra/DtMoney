@@ -1,6 +1,8 @@
 import { api } from '../../services/api';
 import { Container } from './styles';
+import { useContext } from 'react';
 import { useEffect, useState } from 'react';
+import { TransactionsContext } from '../../TransactionsContext';
 
 interface Transaction {
   id: number;
@@ -12,6 +14,7 @@ interface Transaction {
 }
 
 export function TransactionsTable() {
+  const data = useContext(TransactionsContext);
   const [transactions, setTransactions] = useState<Transaction[]>([]);
 
   useEffect(() => {
