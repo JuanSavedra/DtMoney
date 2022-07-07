@@ -2,8 +2,7 @@
 O DtMoney é uma aplicação feita em React e Typescript com o auxílio da Trilha de ReactJS do Ignite da Rocketseat. 
 
 ## Sobre
-### O intuito da aplicação é fazer com que se crie uma administração finaceira do dia a dia, podendo anotar as saídas e entradas 
-de dinheiro.
+### Aplicação com o intuito de administrar seus gastos e ganhos, com uma tabela de transações contendo todas essas informações.
 
 ## Nela contém: 
 - ✔️ Modal
