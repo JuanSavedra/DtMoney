@@ -6,7 +6,6 @@ O DtMoney é uma aplicação feita em React e Typescript com o auxílio da Trilh
 
 ## Nela contém: 
 - ✔️ Modal
-- ✔️ Dashboard
 - ✔️ Summary contendo os dados de Entrada, Saída e Total
 - ✔️ Função para criar uma transação
 - ✔️ Hooks
